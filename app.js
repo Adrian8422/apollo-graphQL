@@ -8,7 +8,6 @@ import { connect } from "./lib/db.js";
 import { resolvers } from "./graphql/resolvers.js";
 config();
 connect();
-
 const port = process.env.PORT || 3000;
 
 const app = express();
