@@ -11,7 +11,7 @@
     "graphql": "^16.6.0",
     "mongoose": "^7.1.1",
     "nodemon": "^2.0.22",
-    "node": ">=14.20.1"
+    "node": "14.17.0"
   },
   "scripts": {
     "dev": " nodemon watch app.js --exec node app.js",
